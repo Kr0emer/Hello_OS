@@ -1,4 +1,4 @@
-MBT_HDR_FLAGS EQU 0x00010003
+MBT_HDR_FLAGS EQU 0x00010003;flag字段，指出OS映像需要引导程序提供或支持的特性
 MBT_HDR_MAGIC EQU 0x1BADB002 ;多引导协议头魔数
 MBT_HDR2_MAGIC EQU 0xe85250d6 ;第二版多引导协议头魔数
 global _start ;导出_start符号
